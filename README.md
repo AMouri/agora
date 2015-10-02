@@ -12,6 +12,7 @@ You will need the following things properly installed on your computer.
 * [Bower](http://bower.io/)
 * [Ember CLI](http://www.ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+* [Flask](http://flask.pocoo.org/)
 
 ## Installation
 
@@ -22,8 +23,13 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
+To run the client-side application:
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
+
+To run the api server:
+* `python api/routes.py`
+* Access the api at [http://localhost:5000](http://localhost:5000).
 
 ### Code Generators
 
